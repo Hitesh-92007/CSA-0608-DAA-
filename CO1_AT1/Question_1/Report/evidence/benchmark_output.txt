@@ -1,0 +1,18 @@
+Student record search benchmark
+Queries per size: 32 (50% found, 50% absent); timing repeats: 3; seed: 2026
+Times are medians for a complete query batch; preprocessing is separate.
+         n  algorithm                        prep ms    search ms    ops/query   correct
+     1,000  Iterative linear search            0.000        0.844      730.188      True
+     1,000  Recursive binary search            0.210        0.070       17.125      True
+     1,000  Hash table lookup                  0.084        0.006        1.000      True
+    10,000  Iterative linear search            0.000       12.221     7339.688      True
+    10,000  Recursive binary search            2.831        0.164       24.562      True
+    10,000  Hash table lookup                  1.018        0.012        1.000      True
+   100,000  Iterative linear search            0.000      103.784    77613.125      True
+   100,000  Recursive binary search           43.023        0.183       31.250      True
+   100,000  Hash table lookup                 13.422        0.009        1.000      True
+ 1,000,000  Iterative linear search            0.000     1224.754   828876.562      True
+ 1,000,000  Recursive binary search          643.896        0.229       37.312      True
+ 1,000,000  Hash table lookup                302.734        0.007        1.000      True
+Example retrieved record: REG0867840 | Student 0867840
+CSV saved to: Report/benchmark_results.csv
