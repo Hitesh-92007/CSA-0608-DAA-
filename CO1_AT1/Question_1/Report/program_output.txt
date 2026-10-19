@@ -1,0 +1,20 @@
+CSA06 CO1 AT1 - ShopSphere Scalability Audit
+Student: Hitesh | Register No.: 192524005
+Rate: 100,000,000 basic operations per second
+Recursive estimates: next power of two = 1,048,576 (20 levels); base case T(1)=1
+
+M2 verification at n = 1,024: 1,023 Audit operations (expected 1,023)
+M2 at n = 1,000,000: 1,048,575 Audit operations
+
+Module / design               Operation units  Estimated time
+------------------------------------------------------------------------
+M1 duplicate detector         499,999,500,000  1 h 23 min 19.995 s
+M2 rate limiter                     1,048,575  1.049e-02 s
+S2 binary search (worst)                   20  2.000e-07 s
+M4 current design           2,199,022,206,976  6 h 6 min 30.222 s
+M4 proposed design                 22,020,096  2.202e-01 s
+M5 sales analytics                221,249,536  2.212e+00 s
+
+S1 average at n=1,000,000 and p=0.5: 750000.25 comparisons
+10-minute decision: M1 and current M4 exceed the window.
+Program completed successfully.
