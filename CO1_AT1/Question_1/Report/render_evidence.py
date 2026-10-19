@@ -10,7 +10,7 @@ OUTPUT = REPORT / "program_output.txt"
 EVIDENCE.mkdir(parents=True, exist_ok=True)
 
 FONT_DIR = Path("C:/Windows/Fonts")
-MONO = ImageFont.truetype(str(FONT_DIR / "consola.ttf"), 19)
+MONO = ImageFont.truetype(str(FONT_DIR / "consola.ttf"), 22)
 MONO_SMALL = ImageFont.truetype(str(FONT_DIR / "consola.ttf"), 15)
 SANS = ImageFont.truetype(str(FONT_DIR / "segoeui.ttf"), 24)
 SANS_BOLD = ImageFont.truetype(str(FONT_DIR / "segoeuib.ttf"), 27)
@@ -19,7 +19,7 @@ SANS_BOLD = ImageFont.truetype(str(FONT_DIR / "segoeuib.ttf"), 27)
 def render_panel(path: Path, title: str, subtitle: str, lines: list[str],
                  *, code: bool = False, width: int = 1800,
                  line_offset: int = 0) -> None:
-    top, margin, line_height = 42, 56, 28 if code else 34
+    top, margin, line_height = 42, 56, 32 if code else 34
     header_height = 122
     height = header_height + top + len(lines) * line_height + 56
     bg = "#0b1220" if code else "#f4f7fb"
@@ -44,7 +44,7 @@ def render_panel(path: Path, title: str, subtitle: str, lines: list[str],
 
 
 source_lines = SOURCE.read_text(encoding="utf-8").splitlines()
-page_size = 48
+page_size = 30
 for page, start in enumerate(range(0, len(source_lines), page_size), 1):
     chunk = source_lines[start:start + page_size]
     render_panel(
@@ -53,6 +53,7 @@ for page, start in enumerate(range(0, len(source_lines), page_size), 1):
         f"scalability_audit.cpp | lines {start + 1}–{start + len(chunk)} | rendered from submitted source",
         chunk,
         code=True,
+        width=1250,
         line_offset=start,
     )
 

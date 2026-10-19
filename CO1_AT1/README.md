@@ -5,6 +5,7 @@ This folder contains my CO1 Assessment Tool 1 work for the ShopSphere scalabilit
 ## Question 1
 
 - [Report and analysis](Question_1/Report/Report.md)
+- [Report PDF](Question_1/Report/Report.pdf)
 - [C++ source code](Question_1/Source_Code/scalability_audit.cpp)
 - [Program output](Question_1/Report/program_output.txt)
 - [Compiler log](Question_1/Report/compile_log.txt)

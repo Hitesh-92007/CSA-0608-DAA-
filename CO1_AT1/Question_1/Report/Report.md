@@ -228,6 +228,10 @@ These images are rendered directly from the submitted source file, with line num
 
 ![Source code, part 3](Evidence/source_code_screenshot_3.png)
 
+![Source code, part 4](Evidence/source_code_screenshot_4.png)
+
+![Source code, part 5](Evidence/source_code_screenshot_5.png)
+
 ### Program output screenshot
 
 This image is a readable rendering of the output captured from the executed program.
@@ -246,7 +250,7 @@ The report itself contains the full derivations and run instructions. These snap
 
 The question paper requires the student to certify the submission and sign it. Review the course policy and complete this section personally. Do not sign the declaration unless it is accurate for your work and the assistance used.
 
-Student name: Hitesh  
-Register number: 192524005  
-Student signature: ______________________________  
-Date: __________________
+- Student name: Hitesh
+- Register number: 192524005
+- Student signature: ______________________________
+- Date: __________________
