@@ -1,0 +1,25 @@
+Stage 0 - original module
+  sort:      FAIL [('A4', 9), ('A3', 5), ('A3', 5), ('A5', 1), ('A5', 1)]
+  blocklist: FAIL [False, False, False]
+  signature: FAIL [0, 4]
+  closest:   FAIL (0, 2), 60.4401 km
+Stage 1 - repair and retest sort_alerts
+  sort:      PASS [('A2', 9), ('A4', 9), ('A3', 5), ('A1', 3), ('A5', 1)]
+  blocklist: FAIL [False, False, False]
+  signature: FAIL [0, 4]
+  closest:   FAIL (0, 2), 60.4401 km
+Stage 2 - repair and retest is_blocked
+  sort:      PASS [('A2', 9), ('A4', 9), ('A3', 5), ('A1', 3), ('A5', 1)]
+  blocklist: PASS [True, True, False]
+  signature: FAIL [0, 4]
+  closest:   FAIL (0, 2), 60.4401 km
+Stage 3 - repair and retest find_signature
+  sort:      PASS [('A2', 9), ('A4', 9), ('A3', 5), ('A1', 3), ('A5', 1)]
+  blocklist: PASS [True, True, False]
+  signature: PASS [0, 8]
+  closest:   FAIL (0, 2), 60.4401 km
+Stage 4 - repair and retest closest_logins
+  sort:      PASS [('A2', 9), ('A4', 9), ('A3', 5), ('A1', 3), ('A5', 1)]
+  blocklist: PASS [True, True, False]
+  signature: PASS [0, 8]
+  closest:   PASS (0, 5), 1.4142 km

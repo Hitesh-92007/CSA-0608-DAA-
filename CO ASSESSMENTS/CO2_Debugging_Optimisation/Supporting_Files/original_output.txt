@@ -1,0 +1,9 @@
+Original program on the supplied data
+Sort expected: [('A2', 9), ('A4', 9), ('A3', 5), ('A1', 3), ('A5', 1)]
+Sort actual:   [('A4', 9), ('A3', 5), ('A3', 5), ('A5', 1), ('A5', 1)]
+Blocklist expected: [True, True, False]
+Blocklist actual:   [False, False, False]
+Signature expected: [0, 8]
+Signature actual:   [0, 4]
+Closest expected:  (0, 5), 1.4142 km
+Closest actual:    (0, 2), 60.4401 km

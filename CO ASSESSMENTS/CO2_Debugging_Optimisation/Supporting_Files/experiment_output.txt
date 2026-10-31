@@ -1,0 +1,11 @@
+Python random seed: 20261026
+Closest-pair experiment: one measured run per version and size
+events | brute evals | optimized evals | reduction | brute ms | optimized ms | pair | distance
+  1000 |      499500 |             923 |   99.8152% |   81.197 |        4.333 |    (137, 231) | 7.787901415
+  4000 |     7998000 |            3765 |   99.9529% | 1339.964 |       19.242 |   (534, 3044) | 0.903334574
+  8000 |    31996000 |            7451 |   99.9767% | 10456.123 |       96.427 |  (4320, 6401) | 0.887162439
+Insertion sort comparison test: n=5000
+input         | insertion comps | insertion ms | Timsort ms | same output
+nearly_sorted |            5099 |        1.550 |      0.658 | True
+random        |         6292612 |     1157.879 |      1.678 | True
+CSV files: Supporting_Files/distance_experiments.csv, Supporting_Files/sort_experiments.csv

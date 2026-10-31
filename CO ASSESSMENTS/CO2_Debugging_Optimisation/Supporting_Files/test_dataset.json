@@ -1,0 +1,21 @@
+{
+  "source": "Sample data transcribed from the supplied question document",
+  "alerts": [["A1", 3], ["A2", 9], ["A3", 5], ["A4", 9], ["A5", 1]],
+  "blocklist": ["10.0.0.5", "10.0.0.9", "172.16.4.2"],
+  "queries": ["10.0.0.9", "10.0.0.5", "8.8.8.8"],
+  "log": "FAILFAIXFAIL",
+  "pattern": "FAIL",
+  "events_km": [[2, 3], [12, 30], [40, 50], [5, 1], [12, 10], [3, 4]],
+  "experiment_dataset": {
+    "generator": "Python random.Random",
+    "seed": 20261026,
+    "points": 8000,
+    "coordinate_range_km": [0, 10000],
+    "measured_prefix_sizes": [1000, 4000, 8000]
+  },
+  "sort_experiment": {
+    "alerts": 5000,
+    "nearly_sorted_construction": "descending severities with 100 adjacent inversions",
+    "random_construction": "seeded shuffle of 0 through 4999"
+  }
+}

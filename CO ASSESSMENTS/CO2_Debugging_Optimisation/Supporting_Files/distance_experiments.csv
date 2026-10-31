@@ -1,0 +1,4 @@
+events,bruteforce_distance_evaluations,optimized_distance_evaluations,reduction_percent,bruteforce_milliseconds,optimized_milliseconds,matching_pair,distance
+1000,499500,923,99.8152,81.197,4.333,"(137, 231)",7.787901415
+4000,7998000,3765,99.9529,1339.964,19.242,"(534, 3044)",0.903334574
+8000,31996000,7451,99.9767,10456.123,96.427,"(4320, 6401)",0.887162439

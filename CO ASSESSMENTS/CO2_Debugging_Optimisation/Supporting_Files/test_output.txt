@@ -1,0 +1,10 @@
+test_blocklist_and_empty_blocklist (__main__.SentinelOpsTests.test_blocklist_and_empty_blocklist) ... ok
+test_closest_pair_sample_and_boundaries (__main__.SentinelOpsTests.test_closest_pair_sample_and_boundaries) ... ok
+test_randomized_optimized_results_match_corrected_baselines (__main__.SentinelOpsTests.test_randomized_optimized_results_match_corrected_baselines) ... ok
+test_signature_sample_boundaries_and_overlaps (__main__.SentinelOpsTests.test_signature_sample_boundaries_and_overlaps) ... ok
+test_sort_order_stability_and_in_place_contract (__main__.SentinelOpsTests.test_sort_order_stability_and_in_place_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.029s
+
+OK
