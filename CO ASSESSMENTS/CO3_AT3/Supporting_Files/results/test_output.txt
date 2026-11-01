@@ -1,0 +1,17 @@
+test_first_duplicate_and_comparison_count (__main__.BinarySearchTests.test_first_duplicate_and_comparison_count) ... ok
+test_missing_and_boundaries (__main__.BinarySearchTests.test_missing_and_boundaries) ... ok
+test_empty_single_and_input_preserved (__main__.MergeSortTests.test_empty_single_and_input_preserved) ... ok
+test_randomized_against_builtin_stable_sort (__main__.MergeSortTests.test_randomized_against_builtin_stable_sort) ... ok
+test_sample_sorted_and_stable (__main__.MergeSortTests.test_sample_sorted_and_stable) ... ok
+test_baseline_and_optimized_sort (__main__.QuickSortTests.test_baseline_and_optimized_sort) ... ok
+test_first_pivot_sample_partition (__main__.QuickSortTests.test_first_pivot_sample_partition) ... ok
+test_heap_fallback_is_used_at_depth_limit (__main__.QuickSortTests.test_heap_fallback_is_used_at_depth_limit) ... ok
+test_optimized_randomized_against_builtin (__main__.QuickSortTests.test_optimized_randomized_against_builtin) ... ok
+test_given_matrices_and_operation_counts (__main__.StrassenTests.test_given_matrices_and_operation_counts) ... ok
+test_padding_and_randomized_equivalence (__main__.StrassenTests.test_padding_and_randomized_equivalence) ... ok
+test_rejects_non_square (__main__.StrassenTests.test_rejects_non_square) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.055s
+
+OK

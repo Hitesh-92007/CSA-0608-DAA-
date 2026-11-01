@@ -1,0 +1,27 @@
+PART (b) - MODULE 1: MERGE SORT
+Input: [(105, 'O1'), (102, 'O2'), (105, 'O3'), (101, 'O4'), (102, 'O5'), (103, 'O6')]
+Sorted output: [(101, 'O4'), (102, 'O2'), (102, 'O5'), (103, 'O6'), (105, 'O1'), (105, 'O3')]
+Timestamp comparisons: 9
+Equal timestamp 102 order IDs: ['O2', 'O5']
+Equal timestamp 105 order IDs: ['O1', 'O3']
+
+PART (c) - MODULE 2: QUICK SORT
+Sample scores: [42, 17, 63, 8, 55, 29]
+After first-pivot partition: [29, 17, 8, 42, 55, 63] pivot index: 3
+Partition comparisons: 5
+Optimized sorted scores: [8, 17, 29, 42, 55, 63]
+Optimized comparisons: 11 partitions: 0 heap fallbacks: 0
+
+PART (d) - MODULE 3: FIRST MATCHING ORDER
+Consolidated orders: [(101, 'O4'), (102, 'O2'), (102, 'O5'), (103, 'O6'), (105, 'O1'), (105, 'O3')]
+Timestamp 102 first index: 1 record: (102, 'O2')
+Timestamp comparisons including final equality check: 4
+
+PART (e) - MODULE 4: STRASSEN MULTIPLICATION
+A: [[1, 7], [3, 5]]
+B: [[1, 3], [7, 5]]
+Classical result: [[50, 38], [38, 34]]
+Strassen result: [[50, 38], [38, 34]]
+Classical scalar multiplications: 8
+Strassen scalar multiplications: 7
+Strassen scalar additions/subtractions: 18

@@ -1,0 +1,13 @@
+{
+  "module_1_orders": [[105, "O1"], [102, "O2"], [105, "O3"], [101, "O4"], [102, "O5"], [103, "O6"]],
+  "module_2_scores": [42, 17, 63, 8, 55, 29],
+  "module_3_query_timestamp": 102,
+  "module_4_matrix_a": [[1, 7], [3, 5]],
+  "module_4_matrix_b": [[1, 3], [7, 5]],
+  "benchmark_generation": {
+    "seed": 20261031,
+    "nearly_sorted_seller_count": 100000,
+    "nearly_sorted_disturbances": "100 deterministic adjacent swaps over an otherwise ascending score list",
+    "matrix_value_range": "integers from 0 through 9"
+  }
+}

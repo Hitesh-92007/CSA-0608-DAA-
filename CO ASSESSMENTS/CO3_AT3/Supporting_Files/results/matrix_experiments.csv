@@ -1,0 +1,5 @@
+n,cutoff,classical_multiplications,hybrid_strassen_multiplications,hybrid_additions_subtractions,multiplication_reduction_percent,classical_ms,hybrid_strassen_ms,outputs_match
+16,32,4096,4096,3840,0.00,0.588,0.588,True
+32,32,32768,32768,31744,0.00,4.573,4.651,True
+64,32,262144,229376,240640,12.50,38.192,39.643,True
+128,32,2097152,1605632,1758208,23.44,325.952,261.553,True

@@ -1,0 +1,8 @@
+n,distribution,merge_key_comparisons,merge_ms,guarded_quick_comparisons,guarded_quick_ms,guarded_partitions,heap_fallbacks,first_pivot_measured_comparisons,first_pivot_ms,output_match
+1000,nearly_sorted_100_adjacent_swaps,4985,1.637,7220,0.832,63,0,449600,32.001,True
+5000,nearly_sorted_100_adjacent_swaps,29861,9.105,45604,5.131,255,0,12247600,877.391,True
+20000,nearly_sorted_100_adjacent_swaps,139275,40.365,222140,23.036,1023,0,not measured at this size,,True
+100000,nearly_sorted_100_adjacent_swaps,815095,231.018,1361012,160.660,6027,0,not measured at this size,,True
+1000,seeded_random,8708,2.594,12054,1.611,72,0,not measured at this size,,True
+5000,seeded_random,55204,14.606,76505,9.645,351,0,not measured at this size,,True
+20000,seeded_random,260956,66.801,340948,43.038,1415,0,not measured at this size,,True
