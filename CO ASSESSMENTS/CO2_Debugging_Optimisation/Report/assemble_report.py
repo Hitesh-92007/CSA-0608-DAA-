@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 REPORT = Path(__file__).resolve().parent
 debug_log = (REPORT / "Debugging_Log.md").read_text(encoding="utf-8")
-debug_log = debug_log.replace("# Debugging log", "## Detailed findings", 1)
+debug_log = debug_log.replace("# Debugging log", "", 1)
 
 header = """# SentinelOps SOC Alert Triage Debugging and Optimisation Report
 
@@ -14,8 +14,6 @@ header = """# SentinelOps SOC Alert Triage Debugging and Optimisation Report
 **Assessment:** CO2 Debugging and Optimisation Task
 
 This report records the defects in the supplied alert-triage code, the minimal corrections, the optimized algorithms, test results, complexity analysis, and measured comparisons. The original, corrected, and optimized Python programs are included in `Source_Code/`.
-
-## Debugging, optimisation, analysis, and delivery
 
 """
 

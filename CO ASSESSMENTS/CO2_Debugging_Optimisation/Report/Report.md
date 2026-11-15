@@ -7,9 +7,7 @@
 
 This report records the defects in the supplied alert-triage code, the minimal corrections, the optimized algorithms, test results, complexity analysis, and measured comparisons. The original, corrected, and optimized Python programs are included in `Source_Code/`.
 
-## Debugging, optimisation, analysis, and delivery
 
-## Detailed findings
 
 ## Part A: Reproduce and identify
 
