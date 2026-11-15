@@ -1,0 +1,7 @@
+Input selection values: [31, 4, 18, 7, 22, 4, 10, 2, 15, 29, 11, 6, 40, 1, 17, 9, 13, 20, 5, 27, 8]
+k=10 (zero-based)
+Median of Medians: 11, comparisons=67, depth=2
+First-pivot QuickSelect on sorted data: 11, comparisons=316, partitions=10
+Subset sum values=[3, 34, 4, 12, 5, 2], target=9
+Meet-in-the-Middle solution=[4, 5], halves=8+8
+Exhaustive solution=[4, 5], subsets examined=25

@@ -1,0 +1,8 @@
+Input: [19, 4, 27, 8, 11, 2, 31, 6]
+Divide-and-conquer min/max: 2/31 (10 comparisons)
+Independent scans min/max: 2/31 (14 comparisons)
+Sorted for binary search: [2, 4, 6, 8, 11, 19, 27, 31]
+Binary search 2: index=0, comparisons=5
+Binary search 19: index=5, comparisons=3
+Binary search 31: index=7, comparisons=7
+Binary search 10: index=-1, comparisons=6

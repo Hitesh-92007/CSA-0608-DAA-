@@ -1,0 +1,7 @@
+Merge Sort output: [2, 4, 5, 6, 8, 9, 11, 15, 16, 19, 23, 27, 31, 33, 42]
+Quick Sort output: [2, 4, 5, 6, 8, 9, 11, 15, 16, 19, 23, 27, 31, 33, 42]
+Merge comparisons=45, recursion depth=5
+Quick comparisons=51, recursion depth=7
+Last-pivot balanced case n=31: comparisons=98, depth=5
+Last-pivot ascending case n=31: comparisons=465, depth=31
+Quick Sort pivot: last element; ascending distinct input creates n-1/0 partitions.

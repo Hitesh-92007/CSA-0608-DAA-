@@ -1,0 +1,1 @@
+Experiments use deterministic seed 192524005. Timing columns are medians of repeated runs where shown; Q6 first-pivot worst-case and exhaustive subset-sum baselines are single runs. Timings are environment-specific. All algorithm pairs were checked for equal results on the same input before recording the comparison.

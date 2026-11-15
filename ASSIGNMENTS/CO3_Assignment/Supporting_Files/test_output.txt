@@ -1,0 +1,11 @@
+10 checks passed
+[PASS] Q1 max/min matches Python reference for n=1..50
+[PASS] Q1 binary search finds endpoints and rejects a missing key
+[PASS] Q2 Merge Sort and Quick Sort match sorted reference for n=1..50
+[PASS] Q3 both multiplication methods match integer product on signed values
+[PASS] Q4 padded Strassen matches conventional multiplication for sizes 1..6
+[PASS] Q5 closest-pair divide-and-conquer matches brute force on repeated-coordinate data
+[PASS] Q6 selection methods return the requested order statistic
+[PASS] Q6 Meet-in-the-Middle agrees with exhaustive subset-sum feasibility
+[PASS] Q7 divide-and-conquer maximum subarray matches brute force
+[PASS] Edge cases: singleton, identical points, and all-negative subarray

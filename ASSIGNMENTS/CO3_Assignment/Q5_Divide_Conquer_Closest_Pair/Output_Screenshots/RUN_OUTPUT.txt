@@ -1,0 +1,4 @@
+Points: [(2, 3), (12, 30), (40, 50), (5, 1), (12, 10), (3, 4), (5, 1)]
+Brute-force closest distance: 0.000000, pair=((5, 1), (5, 1)), distance calculations=21
+Divide-and-conquer closest distance: 0.000000, pair=((5, 1), (5, 1)), distance calculations=7
+Distances agree: True

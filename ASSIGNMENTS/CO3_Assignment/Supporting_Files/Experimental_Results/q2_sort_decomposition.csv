@@ -1,0 +1,11 @@
+case,n,quick_comparisons,quick_depth,merge_comparisons,merge_depth,largest_partition_fraction
+balanced_last_pivot,31,98,5,88,6,0.483871
+ascending_last_pivot,31,465,31,75,6,0.967742
+balanced_last_pivot,63,258,6,224,7,0.492063
+ascending_last_pivot,63,1953,63,186,7,0.984127
+balanced_last_pivot,127,642,7,544,8,0.496063
+ascending_last_pivot,127,8001,127,441,8,0.992126
+balanced_last_pivot,255,1538,8,1280,9,0.498039
+ascending_last_pivot,255,32385,255,1016,9,0.996078
+balanced_last_pivot,511,3586,9,2944,10,0.499022
+ascending_last_pivot,511,130305,511,2295,10,0.998043

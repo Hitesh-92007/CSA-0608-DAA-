@@ -1,0 +1,4 @@
+Input: [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+D&C maximum segment: sum=6, indices=3..6, segment=[4, -1, 2, 1], boundary additions=29
+Brute-force maximum segment: sum=6, indices=3..6, segment=[4, -1, 2, 1], additions=45
+Results agree: True

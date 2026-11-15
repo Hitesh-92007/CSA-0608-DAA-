@@ -1,0 +1,7 @@
+A = 12345678901234567890
+B = 98765432109876543210
+Product = 1219326311370217952237463801111263526900
+Schoolbook matches Karatsuba: True
+Schoolbook digit multiplications: 400
+Karatsuba base digit multiplications: 211
+Karatsuba recursive calls: 55, maximum depth: 5

@@ -1,0 +1,8 @@
+A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+B = [[9, 8, 7], [6, 5, 4], [3, 2, 1]]
+A x B = [[30, 24, 18], [84, 69, 54], [138, 114, 90]]
+Strassen equals conventional: True
+Conventional scalar multiplications: 27
+Strassen scalar multiplications: 49
+Strassen scalar additions/subtractions: 242
+Padding: 3x3 matrix padded to 4x4 then cropped.
