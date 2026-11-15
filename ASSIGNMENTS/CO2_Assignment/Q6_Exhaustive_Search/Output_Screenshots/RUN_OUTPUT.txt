@@ -1,0 +1,8 @@
+verified sample: selected=['A', 'B'] weight=15 value=100
+candidate subsets=16 item checks=64 time=0.00002110s
+growth experiment: n, subsets, item checks, best value, seconds
+8, 256, 2048, 155, 0.000311
+12, 4096, 49152, 244, 0.006391
+16, 65536, 1048576, 325, 0.137040
+18, 262144, 4718592, 384, 0.480728
+20, 1048576, 20971520, 442, 2.315592

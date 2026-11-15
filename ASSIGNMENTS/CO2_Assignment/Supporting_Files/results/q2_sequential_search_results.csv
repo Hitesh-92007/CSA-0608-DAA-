@@ -1,0 +1,17 @@
+list_size,case,returned_index,comparisons
+10,first,0,1
+10,middle,5,6
+10,last,9,10
+10,unsuccessful,-1,10
+100,first,0,1
+100,middle,50,51
+100,last,99,100
+100,unsuccessful,-1,100
+1000,first,0,1
+1000,middle,500,501
+1000,last,999,1000
+1000,unsuccessful,-1,1000
+10000,first,0,1
+10000,middle,5000,5001
+10000,last,9999,10000
+10000,unsuccessful,-1,10000

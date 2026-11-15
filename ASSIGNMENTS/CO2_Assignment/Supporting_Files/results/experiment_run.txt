@@ -1,0 +1,10 @@
+CO2 assignment experiment run
+Q1 rows: 18; inputs: 6
+Q2 rows: 16
+Q3 rows: 3
+Q4 sizes: [100, 300, 600, 1000, 2000]
+Q5 sizes: [12, 24, 48, 72, 96]
+Q6 sizes: [8, 12, 16, 18, 20]
+Q7 brute distance counts: [4950, 44850, 179700, 499500, 1999000]
+Q7 D&C distance counts: [196, 704, 1571, 2915, 6607]
+CSV files and PNG graphs were written to Supporting_Files/results.

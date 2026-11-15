@@ -1,0 +1,3 @@
+early distinct hit     n=   28 m=  9 comparisons=      29 matches=[0]
+late near-match        n= 5001 m= 50 comparisons=  247600 matches=[4951]
+overlapping matches    n=    7 m=  3 comparisons=      11 matches=[0, 2, 4]

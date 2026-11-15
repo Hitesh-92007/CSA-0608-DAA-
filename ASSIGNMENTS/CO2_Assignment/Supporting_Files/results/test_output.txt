@@ -1,0 +1,15 @@
+test_all_sorts_against_builtin (__main__.AssignmentTests.test_all_sorts_against_builtin) ... ok
+test_brute_force_closest_pair (__main__.AssignmentTests.test_brute_force_closest_pair) ... ok
+test_closest_pair_small_inputs (__main__.AssignmentTests.test_closest_pair_small_inputs) ... ok
+test_convex_hull_boundary_and_collinear (__main__.AssignmentTests.test_convex_hull_boundary_and_collinear) ... ok
+test_convex_hull_matches_independent_reference (__main__.AssignmentTests.test_convex_hull_matches_independent_reference) ... ok
+test_divide_conquer_closest_pair_matches_brute_force (__main__.AssignmentTests.test_divide_conquer_closest_pair_matches_brute_force) ... ok
+test_divide_conquer_duplicate_coordinates (__main__.AssignmentTests.test_divide_conquer_duplicate_coordinates) ... ok
+test_exhaustive_knapsack_known_optimum (__main__.AssignmentTests.test_exhaustive_knapsack_known_optimum) ... ok
+test_sequential_search_positions_and_miss (__main__.AssignmentTests.test_sequential_search_positions_and_miss) ... ok
+test_string_matching_overlaps_and_edges (__main__.AssignmentTests.test_string_matching_overlaps_and_edges) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.022s
+
+OK

@@ -1,0 +1,4 @@
+case,text_length,pattern_length,match_positions,comparisons
+early distinct hit,28,9,[0],29
+late near-match,5001,50,[4951],247600
+overlapping matches,7,3,"[0, 2, 4]",11

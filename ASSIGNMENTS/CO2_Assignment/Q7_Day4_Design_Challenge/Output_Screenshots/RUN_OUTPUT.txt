@@ -1,0 +1,6 @@
+n      brute distances     D&C distances     reduction       distance equal
+100               4950               196       96.04% True
+300              44850               704       98.43% True
+600             179700              1571       99.13% True
+1000            499500              2915       99.42% True
+2000           1999000              6607       99.67% True

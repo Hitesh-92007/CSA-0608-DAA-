@@ -1,0 +1,6 @@
+square_with_interior: input=6 hull=[(0, 0), (0, 4), (4, 4), (4, 0)]
+  candidate pairs=15 orientation tests=49
+collinear_edges_and_duplicate: input=7 hull=[(0, 0), (0, 3), (4, 3), (4, 0)]
+  candidate pairs=15 orientation tests=49
+all_collinear: input=5 hull=[(0, 0), (4, 4)]
+  candidate pairs=10 orientation tests=30
