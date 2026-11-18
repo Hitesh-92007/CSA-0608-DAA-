@@ -10,4 +10,4 @@ T(0) = c0
 
 The `n=0` base case represents the empty range reached after an unsuccessful search; `n=1` is the final possible record inspection. The recurrence follows the implementation's halving behavior rather than being assumed independently.
 
-See the [complete assignment report](../Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.
+See the [complete assignment report](../Supporting_Files/Report_Source/Legacy_Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.

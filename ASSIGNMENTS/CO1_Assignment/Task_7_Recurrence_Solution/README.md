@@ -11,4 +11,4 @@ T(n) = T(n/2) + c
 
 The recursion reaches a base case when `n/2^k ≤ 1`, so `k ≈ log2 n`. Therefore `T(n) = Θ(log n)`. The Master Theorem gives the same result: `a=1`, `b=2`, and `f(n)=Θ(1)`; since `n^(log_b a)=1`, the equal-growth case yields `Θ(log n)`. The method applies because there is one half-sized recursive subproblem and constant work at each level.
 
-See the [complete assignment report](../Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.
+See the [complete assignment report](../Supporting_Files/Report_Source/Legacy_Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.

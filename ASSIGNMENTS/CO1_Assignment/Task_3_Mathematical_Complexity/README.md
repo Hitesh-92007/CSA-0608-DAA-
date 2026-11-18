@@ -41,4 +41,4 @@ T(n, q) = Θ(n) + q × Θ(1) = Θ(n + q)   (expected)
 
 The index uses `Θ(n)` additional space. If keys collide pathologically, lookup can degrade to `Θ(n)` in the worst case; the expected result relies on a suitable hash distribution and implementation behavior.
 
-See the [complete assignment report](../Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.
+See the [complete assignment report](../Supporting_Files/Report_Source/Legacy_Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.

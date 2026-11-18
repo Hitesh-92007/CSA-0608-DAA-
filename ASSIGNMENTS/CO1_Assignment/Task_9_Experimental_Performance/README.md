@@ -11,19 +11,19 @@ Times below are milliseconds for a complete 32-query batch. Operation counts are
 
 All three methods returned correct results for all benchmark and edge-case queries.
 
-![Measured operations and search time comparison](../Report/Tables_and_Graphs/comparison_chart.png)
+![Measured operations and search time comparison](../Supporting_Files/Report_Source/Legacy_Report/Tables_and_Graphs/comparison_chart.png)
 
 **Source-code screenshot:**
 
-![Screenshot of the three source-code implementations](../Report/Source_Code_Screenshots/source_code_algorithms.png)
+![Screenshot of the three source-code implementations](../Supporting_Files/Report_Source/Legacy_Report/Source_Code_Screenshots/source_code_algorithms.png)
 
 **Benchmark output screenshot:**
 
-![Screenshot of the benchmark output](../Report/Output_Screenshots/benchmark_output.png)
+![Screenshot of the benchmark output](../Supporting_Files/Report_Source/Legacy_Report/Output_Screenshots/benchmark_output.png)
 
-The raw data is in [`benchmark_results.csv`](../Report/Tables_and_Graphs/benchmark_results.csv), and the captured console output is in [`../Report/Output_Screenshots/benchmark_output.txt`](../Report/Output_Screenshots/benchmark_output.txt).
+The raw data is in [`benchmark_results.csv`](../Supporting_Files/Report_Source/Legacy_Report/Tables_and_Graphs/benchmark_results.csv), and the captured console output is in [`../Supporting_Files/Report_Source/Legacy_Report/Output_Screenshots/benchmark_output.txt`](../Supporting_Files/Report_Source/Legacy_Report/Output_Screenshots/benchmark_output.txt).
 
-Raw measurements: [benchmark_results.csv](../Report/Tables_and_Graphs/benchmark_results.csv).
+Raw measurements: [benchmark_results.csv](../Supporting_Files/Report_Source/Legacy_Report/Tables_and_Graphs/benchmark_results.csv).
 
 
-See the [complete assignment report](../Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.
+See the [complete assignment report](../Supporting_Files/Report_Source/Legacy_Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.

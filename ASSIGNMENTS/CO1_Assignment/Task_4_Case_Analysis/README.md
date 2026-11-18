@@ -8,4 +8,4 @@
 
 Linear search varies because it stops as soon as it finds the key. Binary search reduces the candidate range at every call, so even a miss follows only a logarithmic number of levels. Hashing usually addresses the bucket directly, but collisions explain its linear worst case.
 
-See the [complete assignment report](../Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.
+See the [complete assignment report](../Supporting_Files/Report_Source/Legacy_Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.

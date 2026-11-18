@@ -6,4 +6,4 @@ Binary search grows slowly: the measured count rises from about 17 to 37 primiti
 
 Hash lookup uses one logical dictionary lookup per request at every size, and its batch search time remains roughly flat in this run. At one million records, building the hash index took less time than sorting the records in this run; those constants depend on the machine and runtime. Both preprocessing steps are paid separately from each batch. Actual times vary with hardware, Python implementation, memory pressure, and runtime state, so operation counts and asymptotic trends are more portable than the milliseconds.
 
-See the [complete assignment report](../Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.
+See the [complete assignment report](../Supporting_Files/Report_Source/Legacy_Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.

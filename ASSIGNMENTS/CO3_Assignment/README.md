@@ -1,6 +1,13 @@
-# CO3 Assignment 3 - Divide and Conquer
+# CO3 Assignment — Divide and Conquer Case Study
 
-Pair assignment for CSA06 Design and Analysis of Algorithms. This folder contains solutions for Q1 to Q7, separate pseudocode, runnable Python programs, output captures, experiment data, and the final report.
+This pair assignment contains solutions for Q1 to Q7, separate pseudocode, runnable Python programs, output captures, experiment data, and the final report.
+
+## Final report
+
+- [Complete report (PDF)](Report/CO3_Assignment_Report.pdf)
+- [Complete report (Word)](Report/CO3_Assignment_Report.docx)
+
+The **Report** folder contains only these two final report files. Earlier report-building files and the contribution-record template are preserved under `Supporting_Files/Report_Source/Previous_Final_Report/`.
 
 ## Questions
 
@@ -22,12 +29,6 @@ python Supporting_Files/test_harness.py
 python Supporting_Files/run_experiments.py
 ```
 
-The assignment brief does not specify the Q7 challenge problem in the supplied document. Maximum-subarray sum is used here as a clearly stated working design challenge. Replace it if the instructor assigned a different problem separately.
+The supplied brief does not specify the Q7 design-challenge problem. Maximum-subarray sum is used as a clearly labeled working example; replace it if the instructor assigned a different problem separately.
 
-The report uses Student A and Student B as the brief's role labels. Add the partner's name and register number, and complete the actual contribution record from work both partners really performed. Q7's initial proposal files are separate templates and must be completed independently before the two students compare them; they are not presented as authentic student-authored proposals.
-
-## Layout
-
-- `Q1_...` through `Q7_...`: pseudocode, implementations, and captured outputs.
-- `Supporting_Files/`: datasets, test harness, experiment scripts, CSV tables, charts, and logs.
-- `Final_Report/`: complete report in Word and PDF, plus the contribution record in Word.
+The brief requires both students' individual contributions, but the partner's identity and actual work were not provided. The report marks this for completion from the real pair discussion; it does not invent a partner or contribution record. Complete that section and both independent Q7 proposals with the partner before submission.

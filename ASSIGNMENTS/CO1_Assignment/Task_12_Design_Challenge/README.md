@@ -16,4 +16,4 @@ Retain the hash-based design and modify the update process: build the hash index
 
 The benchmark shows one logical hash lookup per query at all four sizes, while linear operations grow in proportion to the record count. Binary search also scales well, but needs sorted preprocessing and a logarithmic search. With 50,000 requests per hour and records added only once daily, keeping the hash index ready favors repeated lookups over minimizing occasional update work. The choice is therefore supported by the request/update ratio, expected complexity, and measured search results, while acknowledging the memory and worst-case collision trade-offs.
 
-See the [complete assignment report](../Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.
+See the [complete assignment report](../Supporting_Files/Report_Source/Legacy_Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.

@@ -8,4 +8,4 @@
 
 The comparison counts for linear and binary search are key comparisons. Hash lookup counts are reported separately as logical dictionary lookups, not as if they were string comparisons.
 
-See the [complete assignment report](../Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.
+See the [complete assignment report](../Supporting_Files/Report_Source/Legacy_Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.

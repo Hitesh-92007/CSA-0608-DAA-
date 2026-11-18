@@ -8,6 +8,6 @@ From the repository root, run:
 python CO1_Assignment/Task_8_Implementation_Testing/Source_Code/student_record_search.py
 ```
 
-The program tests the same query set against each algorithm, checks present and absent keys, and includes first-position, last-position, and missing-key edge cases. Sorting and hash-index construction are timed separately from searches. The default run writes its measurements to `CO1_Assignment/Report/Tables_and_Graphs/benchmark_results.csv`.
+The program tests the same query set against each algorithm, checks present and absent keys, and includes first-position, last-position, and missing-key edge cases. Sorting and hash-index construction are timed separately from searches. The default run writes its measurements to `ASSIGNMENTS/CO1_Assignment/Supporting_Files/Experiment_Results/benchmark_results.csv`.
 
-See [the complete report](../Report/Documentation/CO1_Assignment_Report.md#task-8-implementation-and-test-procedure) for the test procedure, assumptions, and output evidence.
+See [the complete report](../Supporting_Files/Report_Source/Legacy_Report/Documentation/CO1_Assignment_Report.md#task-8-implementation-and-test-procedure) for the test procedure, assumptions, and output evidence.

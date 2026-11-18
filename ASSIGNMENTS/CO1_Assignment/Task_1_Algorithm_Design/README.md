@@ -45,4 +45,4 @@ HASH-LOOKUP(index, target)
 
 The three strategies are different: sequential scanning, divide-and-conquer on ordered data, and key indexing by hashing. The implementation is in [`student_record_search.py`](../Task_8_Implementation_Testing/Source_Code/student_record_search.py).
 
-See the [complete assignment report](../Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.
+See the [complete assignment report](../Supporting_Files/Report_Source/Legacy_Report/Documentation/CO1_Assignment_Report.md) for the full analysis and evidence.
