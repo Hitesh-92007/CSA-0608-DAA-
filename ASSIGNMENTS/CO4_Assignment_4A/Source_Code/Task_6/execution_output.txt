@@ -1,0 +1,12 @@
+CO4A Task 6: Weighted interval scheduling
+J1 p=-1 include=20 exclude=0 DP=20
+J2 p=-1 include=50 exclude=20 DP=50
+J3 p=0 include=50 exclude=50 DP=50
+J4 p=2 include=90 exclude=50 DP=90
+J5 p=1 include=110 exclude=90 DP=110
+J6 p=3 include=120 exclude=110 DP=120
+J7 p=4 include=160 exclude=120 DP=160
+J8 p=6 include=200 exclude=160 DP=200
+Selected: ['J2', 'J5', 'J7', 'J8'] total: 200
+Challenge optimum: ['A', 'B', 'C', 'E'] 27 (highest single-value job X is not selected)
+Checks: passed (given data, adversarial case, empty input)

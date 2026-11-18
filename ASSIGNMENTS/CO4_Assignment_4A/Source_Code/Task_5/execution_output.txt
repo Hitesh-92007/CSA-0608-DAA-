@@ -1,0 +1,16 @@
+CO4A Task 5: Dijkstra from A
+A 0 ['A']
+B 4 ['A', 'B']
+C 6 ['A', 'B', 'C']
+D 7 ['A', 'B', 'C', 'D']
+E 10 ['A', 'B', 'C', 'D', 'E']
+Finalisation: ['A', 'B', 'C', 'D', 'E']
+Bellman-Ford with B->D=-2: {'A': 0, 'B': 4, 'C': 6, 'D': 2, 'E': 5} negative cycle: False
+Floyd-Warshall rows:
+A [0, 4, 6, 7, 10]
+B ['inf', 0, 2, 3, 6]
+C ['inf', 'inf', 0, 1, 4]
+D ['inf', 'inf', 'inf', 0, 3]
+E ['inf', 'inf', 'inf', 'inf', 0]
+Reachable negative cycle with E->B=-10: True
+Checks: passed (given graph, negative edge, reachable negative cycle)

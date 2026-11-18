@@ -1,0 +1,15 @@
+CO4B Task 6: Held-Karp TSP
+cost matrix (hub=0, locations=1..8; Manhattan cost):
+[0, 5, 6, 11, 8, 10, 16, 12, 4]
+[5, 0, 5, 6, 5, 7, 11, 7, 3]
+[6, 5, 0, 5, 10, 4, 10, 10, 8]
+[11, 6, 5, 0, 7, 5, 5, 7, 7]
+[8, 5, 10, 7, 0, 12, 8, 4, 4]
+[10, 7, 4, 5, 12, 0, 6, 12, 10]
+[16, 11, 10, 5, 8, 6, 0, 8, 12]
+[12, 7, 10, 7, 4, 12, 8, 0, 8]
+[4, 3, 8, 7, 4, 10, 12, 8, 0]
+route: [0, 8, 4, 7, 6, 3, 5, 2, 1, 0] minimum cost: 44 states evaluated: 1024
+4-location DP: (28, [0, 2, 3, 4, 1, 0]) exhaustive: (28, (0, 1, 4, 3, 2, 0)) match: True
+Measured state growth (m, DP states, elapsed): [(4, 32, '0.000036s'), (5, 80, '0.000085s'), (6, 192, '0.000211s'), (7, 448, '0.000517s'), (8, 1024, '0.001384s')]
+Checks: passed (eight locations, exhaustive 4-location validation, state counts)

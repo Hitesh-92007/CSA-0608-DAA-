@@ -1,0 +1,5 @@
+CO4A Task 3: 0/1 knapsack, capacity=7
+DP optimum by item row: [0, 12, 32, 45, 45]
+Selected items: ['Q', 'R']
+Maximum value: 45
+Checks: passed (given instance, item heavier than capacity)

@@ -1,0 +1,10 @@
+CO4A Task 2: Job sequencing
+A: profit=80, deadline=2 -> slot 2
+C: profit=60, deadline=2 -> slot 1
+D: profit=40, deadline=3 -> slot 3
+B: profit=35, deadline=1 -> slot rejected
+E: profit=25, deadline=1 -> slot rejected
+Schedule: ['C', 'A', 'D']
+Maximum profit: 180
+Changed case (A deadline 1): ['A', 'C', 'D'] profit: 180
+Checks: passed (given instance, empty input, changed deadline)

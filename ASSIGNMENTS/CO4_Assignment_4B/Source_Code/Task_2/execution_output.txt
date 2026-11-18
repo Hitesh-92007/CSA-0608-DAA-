@@ -1,0 +1,7 @@
+CO4B Task 2: normal instance; capacity=50
+Fractional steps: [('A', 6.0, 1, 40, 60.0), ('B', 5.0, 1, 20, 160.0), ('C', 4.0, 0.6666666666666666, 0.0, 240.0)] value: 240.0 selected: [('A', 1), ('B', 1), ('C', 0.6666666666666666)]
+0/1 DP value: 220 selected: ['B', 'C'] cells: 204
+0/1 ratio-greedy steps: [('A', 10, 60, 40, 'taken'), ('B', 20, 100, 20, 'taken'), ('C', 30, 120, 20, 'skipped')] value: 160 selected: ['A', 'B']
+The first commitment A leaves 40; B then leaves 20, so C cannot fit.
+Work evidence: fractional greedy inspected 3 items; 0/1 ratio greedy inspected 3 items; DP filled 204 cells
+Checks: passed (fractional optimum, 0/1 optimum, greedy counterexample)

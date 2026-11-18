@@ -1,0 +1,14 @@
+CO4B Task 5: MST algorithms
+Kruskal trace: [(('B', 'C', 1), True), (('F', 'G', 1), True), (('B', 'D', 2), True), (('E', 'F', 2), True), (('G', 'H', 2), True), (('A', 'C', 3), True), (('D', 'E', 3), True)]
+Kruskal MST: [('B', 'C', 1), ('F', 'G', 1), ('B', 'D', 2), ('E', 'F', 2), ('G', 'H', 2), ('A', 'C', 3), ('D', 'E', 3)] cost: 14
+Prim trace: [(('A', 'C', 3), {'A'}), (('B', 'C', 1), {'C', 'A'}), (('B', 'D', 2), {'B', 'C', 'A'}), (('D', 'E', 3), {'B', 'D', 'C', 'A'}), (('E', 'F', 2), {'C', 'D', 'E', 'B', 'A'}), (('F', 'G', 1), {'C', 'D', 'E', 'B', 'F', 'A'}), (('G', 'H', 2), {'C', 'G', 'D', 'E', 'B', 'F', 'A'})]
+Prim MST: [('A', 'C', 3), ('B', 'C', 1), ('B', 'D', 2), ('D', 'E', 3), ('E', 'F', 2), ('F', 'G', 1), ('G', 'H', 2)] cost: 14
+Boruvka trace: [(('A', 'C', 3), True), (('B', 'C', 1), True), (('B', 'D', 2), True), (('E', 'F', 2), True), (('F', 'G', 1), True), (('G', 'H', 2), True), (('D', 'E', 3), True)]
+Boruvka MST: [('A', 'C', 3), ('B', 'C', 1), ('B', 'D', 2), ('E', 'F', 2), ('F', 'G', 1), ('G', 'H', 2), ('D', 'E', 3)] cost: 14
+Equal-weight change A-B: edge sets: [('B', 'C', 1), ('F', 'G', 1), ('B', 'D', 2), ('E', 'F', 2), ('G', 'H', 2), ('A', 'B', 3), ('D', 'E', 3)] [('A', 'C', 3), ('B', 'C', 1), ('B', 'D', 2), ('D', 'E', 3), ('E', 'F', 2), ('F', 'G', 1), ('G', 'H', 2)] [('A', 'B', 3), ('B', 'C', 1), ('B', 'D', 2), ('E', 'F', 2), ('F', 'G', 1), ('G', 'H', 2), ('D', 'E', 3)]
+Equal-weight change costs: 14 14 14
+Disconnected-graph boundary:
+Kruskal : Graph is disconnected
+Prim : Graph is disconnected
+Boruvka : Graph is disconnected
+Checks: passed (connected graph, all three costs, tied MST test)

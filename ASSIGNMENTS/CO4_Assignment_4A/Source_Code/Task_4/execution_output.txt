@@ -1,0 +1,6 @@
+CO4A Task 4: WordBreak defect
+Failing input: text='ab', dictionary=['b']
+Faulty states: [True, False, True] result: True
+Corrected states: [True, False, False] result: False
+Regression cat/{cat}: (True, [True, False, False, True])
+Checks: passed (counterexample, regression, valid multiword split)

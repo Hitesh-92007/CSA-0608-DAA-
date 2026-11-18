@@ -1,0 +1,11 @@
+CO4B Task 4: baseline assembly schedule
+station 2 L1 stay/transfer (18, 23, 'stay L1') L2 stay/transfer (17, 16, 'transfer L1->L2') DP (18, 16)
+station 3 L1 stay/transfer (21, 20, 'transfer L2->L1') L2 stay/transfer (22, 27, 'stay L2') DP (20, 22)
+station 4 L1 stay/transfer (24, 28, 'stay L1') L2 stay/transfer (26, 25, 'transfer L1->L2') DP (24, 25)
+station 5 L1 stay/transfer (32, 35, 'stay L1') L2 stay/transfer (30, 32, 'stay L2') DP (32, 30)
+station 6 L1 stay/transfer (36, 35, 'transfer L2->L1') L2 stay/transfer (37, 43, 'stay L2') DP (35, 37)
+route: [1, 2, 1, 2, 2, 1] transfers before stations: [2, 3, 4, 6] minimum: 38
+Prediction: raising L1->L2 transfer before station 4 from 1 to 16 should avoid that transfer, change the route, and raise the minimum time.
+High-transfer result: (39, [1, 2, 1, 1, 1, 1], [2, 3])
+Slow L1 station 3 result: (39, [1, 2, 2, 2, 2, 1], [2, 6])
+Checks: passed (baseline, modified transfer, station disruption)

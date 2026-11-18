@@ -1,0 +1,20 @@
+CO4B Task 1: Word wrap; non-final penalty = unused^2
+Width 16: cost=140, DP=[0, 81, 106, 227, 115, 236, 131, 116, 261, 140, 140]
+  line 1: 'Dynamic'; used=7; unused=9; penalty=81
+  line 2: 'programming'; used=11; unused=5; penalty=25
+  line 3: 'helps arrange'; used=13; unused=3; penalty=9
+  line 4: 'words neatly'; used=12; unused=4; penalty=16
+  line 5: 'in a document'; used=13; unused=3; penalty=9
+  line 6: 'layout'; used=6; unused=10; penalty=0
+Width 20: cost=2, DP=[0, 169, 1, 178, 50, 2, 114, 75, 59, 2, 2]
+  line 1: 'Dynamic programming'; used=19; unused=1; penalty=1
+  line 2: 'helps arrange words'; used=19; unused=1; penalty=1
+  line 3: 'neatly in a document'; used=20; unused=0; penalty=0
+  line 4: 'layout'; used=6; unused=14; penalty=0
+Width 24: cost=66, DP=[0, 289, 25, 338, 146, 50, 290, 227, 195, 66, 66]
+  line 1: 'Dynamic programming'; used=19; unused=5; penalty=25
+  line 2: 'helps arrange words'; used=19; unused=5; penalty=25
+  line 3: 'neatly in a document'; used=20; unused=4; penalty=16
+  line 4: 'layout'; used=6; unused=18; penalty=0
+Boundary case (word wider than line): A word exceeds the line width
+Checks: passed (three widths, overlong word)
