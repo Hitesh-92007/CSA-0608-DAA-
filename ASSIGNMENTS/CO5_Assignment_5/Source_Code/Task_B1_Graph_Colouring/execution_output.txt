@@ -1,0 +1,14 @@
+B1 GRAPH COLOURING TESTS (k = 3)
+triangle, 3 colours; n=3; edges=3
+  input: colourable; colours=[0, 1, 2]; nodes=4, candidates=6, rejected=3, backtracks=0, max_depth=3
+  DSATUR: colourable; colours=[0, 1, 2]; nodes=4, candidates=6, rejected=3, backtracks=0, max_depth=3
+K4, 3 colours; n=4; edges=6
+  input: not colourable; colours=None; nodes=16, candidates=48, rejected=33, backtracks=15, max_depth=3
+  DSATUR: not colourable; colours=None; nodes=16, candidates=48, rejected=33, backtracks=15, max_depth=3
+empty graph boundary; n=0; edges=0
+  input: colourable; colours=[]; nodes=1, candidates=0, rejected=0, backtracks=0, max_depth=0
+  DSATUR: colourable; colours=[]; nodes=1, candidates=0, rejected=0, backtracks=0, max_depth=0
+five-vertex backtracking trace; n=5; edges=6
+  input: colourable; colours=[0, 1, 0, 1, 2]; nodes=11, candidates=24, rejected=14, backtracks=5, max_depth=5
+  DSATUR: colourable; colours=[0, 1, 0, 1, 2]; nodes=6, candidates=9, rejected=4, backtracks=0, max_depth=5
+RESULT: 4/4 graph cases passed under both selection rules

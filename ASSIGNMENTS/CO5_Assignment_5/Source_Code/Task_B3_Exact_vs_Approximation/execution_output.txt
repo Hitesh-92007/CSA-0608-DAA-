@@ -1,0 +1,15 @@
+B3 EXACT VS GREEDY SET COVER
+case,exact_size,greedy_size,same,exact_subsets,greedy_scans
+balanced six-zone,2,2,True,7,9
+  exact centres=[1, 2]; greedy centres=[1, 2]
+greedy counterexample,2,3,False,7,6
+  exact centres=[2, 3]; greedy centres=[1, 2, 3]
+five-zone overlap,2,2,True,8,7
+  exact centres=[1, 4]; greedy centres=[1, 4]
+boundary checks: empty universe covered; impossible instance reported
+SCALING: two singleton centres per zone; exact subset enumeration
+zones,centres,exact_size,greedy_size,subsets_checked,greedy_scans
+4,8,4,4,114,26
+6,12,6,6,1873,57
+8,16,8,8,30415,100
+RESULT: all exact covers verified; counterexample exposes greedy gap

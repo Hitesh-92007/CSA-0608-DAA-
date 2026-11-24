@@ -1,0 +1,8 @@
+{
+  "cases": [
+    {"name": "balanced six-zone", "universe": ["A", "B", "C", "D", "E", "F"], "centres": [["A", "B", "C"], ["D", "E", "F"], ["A", "D"], ["B", "E"], ["C", "F"]]},
+    {"name": "greedy counterexample", "universe": [1, 2, 3, 4, 5, 6], "centres": [[1, 2, 3, 4], [1, 2, 5], [3, 4, 6]]},
+    {"name": "five-zone overlap", "universe": [1, 2, 3, 4, 5], "centres": [[1, 2, 3], [2, 4], [3, 5], [1, 4, 5]]}
+  ],
+  "scaling_family": "two candidate centres cover each individual zone; zones = 4, 6, 8"
+}

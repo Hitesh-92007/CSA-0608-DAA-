@@ -1,0 +1,18 @@
+B4 NEXT FIT BIN PACKING (C = 10)
+ordinary: capacity=10; workloads=[2, 5, 4, 7, 1, 3, 8]
+  servers=5; capacity_checks=6; items_processed=7
+  server 1: [2, 5]; used=7; remaining=3
+  server 2: [4]; used=4; remaining=6
+  server 3: [7, 1]; used=8; remaining=2
+  server 4: [3]; used=3; remaining=7
+  server 5: [8]; used=8; remaining=2
+challenge: capacity=10; workloads=[6, 6, 4, 4]
+  servers=3; capacity_checks=3; items_processed=4
+  server 1: [6]; used=6; remaining=4
+  server 2: [6, 4]; used=10; remaining=0
+  server 3: [4]; used=4; remaining=6
+boundary empty: capacity=10; workloads=[]
+  servers=0; capacity_checks=0; items_processed=0
+failure checks: negative/oversized demand and non-positive capacity rejected
+challenge comparison: Next Fit uses 3 servers; feasible optimum uses 2
+RESULT: ordinary, challenge, and empty-boundary tests passed

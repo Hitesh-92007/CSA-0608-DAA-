@@ -1,0 +1,8 @@
+B2 ADVERSARIAL COMPARISON (n = 6, k = 3)
+A: six-vertex path; edges=5
+  input order: colourable; nodes=7, candidates=9, rejected=3, backtracks=0, max_depth=6
+  DSATUR: colourable; nodes=7, candidates=9, rejected=3, backtracks=0, max_depth=6
+B: odd wheel W6; edges=10
+  input order: not colourable; nodes=28, candidates=84, rejected=57, backtracks=27, max_depth=5
+  DSATUR: not colourable; nodes=28, candidates=84, rejected=57, backtracks=27, max_depth=5
+RESULT: same vertex count; the odd-wheel structure causes more search

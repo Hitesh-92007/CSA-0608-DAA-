@@ -1,0 +1,7 @@
+{
+  "vertices": 6,
+  "colour_count": 3,
+  "easy_path_edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5]],
+  "difficult_odd_wheel_edges": [[0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [1, 2], [2, 3], [3, 4], [4, 5], [5, 1]],
+  "expected": {"easy_path_colourable": true, "odd_wheel_colourable": false}
+}
